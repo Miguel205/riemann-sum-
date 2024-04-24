@@ -60,7 +60,7 @@ def midpoint(a,b,dx,area,n,func):
 
     title = ("Reminsum ", area)
     x_values = np.linspace(-10, 10, 20)
-    y_values = function(x_values)
+    y_values = function(x_values,func)
     plt.plot(x_values, y_values, 'r-', label='Function')  # polynomial function
     plt.xlabel('x')
     plt.ylabel('y')
